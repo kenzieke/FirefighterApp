@@ -14,12 +14,12 @@ const calculatedHeight = (originalHeight / originalWidth) * screenWidth;
 
 // Define the positions and sizes of the touchable areas based on the above measurements
 const touchableAreas = [
-  { id: 'sleepDuration', top: 12, left: 21, width: 44, height: 8 },
-  { id: 'sleepQuality', top: 25, left: 43, width: 36, height: 9 },
-  { id: 'bodyComposition', top: 40, left: 53, width: 45, height: 9 },
-  { id: 'nutrition', top: 55, left: 53, width: 34, height: 13 },
-  { id: 'stress', top: 72, left: 45, width: 43, height: 9 },
-  { id: 'physicalActivity', top: 84, left: 22, width: 75, height: 11 },
+  { id: 'sleepDuration', top: 4, left: 21, width: 44, height: 8 },
+  { id: 'sleepQuality', top: 18, left: 43, width: 36, height: 10 },
+  { id: 'bodyComposition', top: 36, left: 53, width: 45, height: 9 },
+  { id: 'nutrition', top: 52, left: 53, width: 34, height: 15 },
+  { id: 'stress', top: 72, left: 45, width: 43, height: 10 },
+  { id: 'physicalActivity', top: 87, left: 22, width: 75, height: 11 },
 ];
 
 
